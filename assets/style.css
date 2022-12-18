@@ -1,0 +1,51 @@
+body {
+    background-color: #2a2b32;
+}
+.content {
+    background-color: #222328;
+    border-radius: 10px;
+    padding: 30px;
+    color: #fff;
+}
+
+nav {
+    background-color: #2a2b32;
+    box-shadow: 0 5px 20px 0 rgba(52, 97, 247, 0.2) !important;
+}
+
+nav .navbar-brand {
+    font-family: "Abril Fatface", cursive;
+    margin: auto;
+    color: #fff;
+    font-size: 30px;
+}
+
+select {
+    box-shadow: none !important;
+}
+textarea {
+    box-shadow: none !important;
+    background-color: #222328 !important;
+    border: none !important;
+    color: #fff !important;
+}
+select:focus {
+    box-shadow:  0 5px 20px 0 rgba(52, 97, 247, 0.2) !important;
+}
+i {
+    cursor: pointer;
+}
+
+@media (min-width: 1200px) {
+    section {
+        min-height: 100vh;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+    nav {
+        position: absolute !important;
+        width: 100%;
+    }
+}
